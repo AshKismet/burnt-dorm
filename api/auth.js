@@ -25,7 +25,7 @@ const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SER
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 const SITE_URL = process.env.SITE_URL || 'https://burntdad.com';
-const FROM = process.env.MAGIC_LINK_FROM || 'Burnt Dad <login@burntdad.com>';
+const FROM = process.env.MAGIC_LINK_FROM || 'Burnt Dad <noreply@burntdad.com>';
 const TOKEN_TTL_MS = 15 * 60 * 1000;   // magic links expire after 15 minutes
 const NEW_USER_TOKENS = 10;
 
