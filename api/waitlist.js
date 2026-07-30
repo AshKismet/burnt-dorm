@@ -8,7 +8,7 @@ const crypto = require('crypto');
 
 const LIST_ID = 'ca8ad32200';
 const MAILCHIMP_URL = `https://us9.api.mailchimp.com/3.0/lists/${LIST_ID}/members`;
-const SIGNUP_TAG = 'Burnt Dad';
+const SIGNUP_TAG = 'Burnt Dorm';
 
 module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', 'https://burntdad.com');
