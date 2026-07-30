@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="impact-site-verification" value="0d25129d-a76d-418e-9427-2f8ca3d52bca">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Burnt Dad Kitchen</title>
-<meta name="description" content="AI recipe generator for dads cooking with kids. What are we making?">
+<title>BURNT DORM</title>
+<meta name="description" content="Dorm-room cooking for broke college students. Microwave and hot plate recipes under $5 per meal.">
 <meta name="theme-color" content="#1a0800">
 <link rel="manifest" href="/manifest.json">
 <link rel="apple-touch-icon" href="/icon-192.png">
@@ -335,7 +335,7 @@ footer a:hover { color:var(--teal); }
 
 <!-- PURCHASE SUCCESS BANNER -->
 <div class="purchase-banner" id="purchaseBanner">
-  <div class="pb-msg">🔥 YOUR LIFE JUST GOT EASIER. 100 RECIPES LOADED.</div>
+  <div class="pb-msg">🔥 YOUR DORM JUST GOT AN UPGRADE.</div>
   <div class="pb-save" id="pbSave" style="display:none">
     <div class="pb-save-text">SAVE YOUR TOKENS: enter your email so they follow you everywhere.</div>
     <div class="pb-save-form" id="pbSaveForm">
@@ -352,23 +352,24 @@ footer a:hover { color:var(--teal); }
 <div class="animals-row">
   <div class="animal-wrap">
     <canvas class="pet" id="catCanvas" width="32" height="32"></canvas>
-    <div class="pet-name">BELLA</div>
+    <div class="pet-name">RAMEN</div>
   </div>
   <div class="animal-wrap">
     <canvas class="pet" id="dogCanvas" width="32" height="32"></canvas>
-    <div class="pet-name">MAXI</div>
+    <div class="pet-name">MIKE</div>
   </div>
 </div>
 
 <header>
-  <div class="logo-text"><span style="color:#FF5500;text-shadow:4px 4px 0 #CC2200,8px 8px 0 rgba(0,0,0,0.4)">BURNT</span> <span style="color:#FF8C00;text-shadow:4px 4px 0 #CC5500,8px 8px 0 rgba(0,0,0,0.4)">DAD</span><br><span style="font-size:clamp(10px,2vw,16px);color:#FF9A3C;text-shadow:2px 2px 0 #CC5500">KITCHEN</span></div>
-  <div class="logo-sub">[ WHAT ARE WE MAKING? ]</div>
+  <div class="logo-text"><span style="color:#FF5500;text-shadow:4px 4px 0 #CC2200,8px 8px 0 rgba(0,0,0,0.4)">BURNT</span> <span style="color:#FF8C00;text-shadow:4px 4px 0 #CC5500,8px 8px 0 rgba(0,0,0,0.4)">DORM</span><br><span style="font-size:clamp(10px,2vw,16px);color:#FF9A3C;text-shadow:2px 2px 0 #CC5500">COOKING</span></div>
+  <div class="logo-sub">[ WHAT ARE WE SURVIVING TONIGHT? ]</div>
 </header>
 
 <div class="pixel-box">
-  <div class="section-label">WHAT ARE WE ATTEMPTING TO COOK?</div>
-  <input class="meal-input" id="mealInput" type="text" placeholder="pasta, tacos, anything..." maxlength="500" autocomplete="off">
+  <div class="section-label">WHAT ARE WE SURVIVING TONIGHT?</div>
+  <input class="meal-input" id="mealInput" type="text" placeholder="ramen, grilled cheese, microwave rice..." maxlength="500" autocomplete="off">
   <div class="char-counter" id="charCounter" style="display:none"></div>
+  <div style="margin-top:8px;font-size:8px;line-height:1.7;color:#FFB366;letter-spacing:1px;text-align:center">DORM-LEGAL • NO OVEN • MICROWAVE OR HOT PLATE • UNDER $5 PER MEAL</div>
   <!-- Honeypot: hidden from real users; bots that fill it get rejected server-side. -->
   <input type="text" id="hpWebsite" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;opacity:0;pointer-events:none;">
 
@@ -376,8 +377,8 @@ footer a:hover { color:var(--teal); }
     <div class="filter-group">
       <span class="filter-label">DIFFICULTY</span>
       <div class="filter-pills">
-        <button class="pill active" data-val="easy" onclick="toggleDiff(this)">EASY</button>
-        <button class="pill" data-val="impressive" onclick="toggleDiff(this)">IMPRESSIVE</button>
+        <button class="pill active" data-val="easy" onclick="toggleDiff(this)">SURVIVABLE</button>
+        <button class="pill" data-val="impressive" onclick="toggleDiff(this)">IMPRESSIVE (FOR A DORM)</button>
       </div>
     </div>
     <div class="filter-group">
@@ -405,8 +406,8 @@ footer a:hover { color:var(--teal); }
 <div id="output"></div>
 
 <div class="book-cta" id="bookCta" style="display:none">
-  <div class="book-cta-title">🔥 BURNT DAD COOKBOOKS 🔥</div>
-  <div class="book-cta-text">Nailed it? This recipe might be in the upcoming Burnt Dad cookbook series. Written for dads. Tested by kids. Survived by both.</div>
+  <div class="book-cta-title">🔥 BURNT DORM COOKBOOKS 🔥</div>
+  <div class="book-cta-text">Nailed it? This recipe might be in the upcoming Burnt Dorm cookbook. Built for ramen upgrades and roommate-approved chaos.</div>
   <button class="cook-btn" style="max-width:340px;margin:0 auto;display:block;font-size:9px;padding:14px" onclick="alert('Cookbook waitlist coming soon!')">JOIN THE COOKBOOK WAITLIST</button>
 </div>
 
@@ -458,8 +459,8 @@ footer a:hover { color:var(--teal); }
 <!-- COOKBOOK WAITLIST -->
 <div id="waitlist" style="margin-top:24px">
   <div class="pixel-box waitlist">
-    <div class="wl-title"><span class="wl-utensil">🥄</span> THE BURNT DAD COOKBOOK IS COMING <span class="wl-utensil">🥄</span></div>
-    <div class="wl-sub">Real recipes. Zero judgment.<br>Written for dads. Tested by kids. Survived by both.</div>
+    <div class="wl-title"><span class="wl-utensil">🥄</span> THE BURNT DORM COOKBOOK IS COMING <span class="wl-utensil">🥄</span></div>
+    <div class="wl-sub">Ramen upgrades. Microwave mastery.<br>Zero kitchen skills required.</div>
     <div class="wl-form" id="waitlistForm">
       <input class="wl-input" id="waitlistEmail" type="email" placeholder="your@email.com" autocomplete="email" onkeydown="if(event.key==='Enter')joinWaitlist()">
       <button class="wl-btn" id="waitlistBtn" onclick="joinWaitlist()">JOIN THE WAITLIST</button>
@@ -469,7 +470,7 @@ footer a:hover { color:var(--teal); }
 </div>
 
 <footer>
-  <div>© 2026 <span>BURNT DAD</span> · A <span>MAGIC SUN LLC</span> PRODUCTION</div>
+  <div>© 2026 <span>BURNT DORM</span> · A <span>MAGIC SUN LLC</span> PRODUCTION</div>
   <div>BOOKS · PUBLISHING · FILMS · TELEVISION</div>
   <div style="margin-top:6px;font-size:6px">ALWAYS COOK WITH A GROWN-UP NEARBY ♥ · NO DADS WERE SERIOUSLY HARMED</div>
   <div style="margin-top:8px"><a href="/privacy.html">PRIVACY POLICY</a> · <a href="/terms.html">TERMS OF SERVICE</a></div>
@@ -485,13 +486,13 @@ footer a:hover { color:var(--teal); }
 <!-- PAYWALL MODAL -->
 <div class="modal-overlay" id="paywallModal">
   <div class="modal">
-    <div class="modal-title">🔥 YOU USED YOUR 10 FREE RECIPES 🔥</div>
-    <div class="modal-text">Dad is out of ideas. But for less than three bucks, dad gets 100 more.</div>
+    <div class="modal-title">🔥 YOUR RAME-N PLAN IS RUNNING LOW 🔥</div>
+    <div class="modal-text">The meal plan is gone and the vending machine is judging you. For less than a coffee, get 100 more dorm-safe recipes.</div>
     <div class="modal-price">$2.99</div>
-    <div class="modal-sub">100 recipes · never expires · feeds the whole dad</div>
+    <div class="modal-sub">100 recipes · no oven required · microwave or hot plate only</div>
     <button class="modal-btn" onclick="handlePurchase()">GET 100 MORE RECIPES</button>
     <br>
-    <button class="modal-close" onclick="closePaywall()">maybe later (dad's loss)</button>
+    <button class="modal-close" onclick="closePaywall()">maybe later (your future self will regret it)</button>
   </div>
 </div>
 
@@ -499,8 +500,8 @@ footer a:hover { color:var(--teal); }
 <div class="modal-overlay" id="loginModal">
   <div class="login-modal">
     <div class="login-title">SAVE YOUR TOKENS</div>
-    <div class="login-text">Enter your email and we'll send a magic link. No password. No nonsense. Your token balance follows you.</div>
-    <input class="login-input" id="loginEmail" type="email" placeholder="dad@burnt.com">
+    <div class="login-text">Enter your email and we'll send a magic link. No password. No nonsense. Your token balance follows you from dorm to dorm.</div>
+    <input class="login-input" id="loginEmail" type="email" placeholder="you@dorm.edu">
     <button class="login-btn" onclick="sendMagicLink()">SEND MAGIC LINK</button>
     <div class="login-sent" id="loginSent">CHECK YOUR EMAIL. LINK EXPIRES IN 15 MINUTES.</div>
     <br>
@@ -763,7 +764,7 @@ function coalateIngredients() {
 function renderDadVan() {
   const el = document.getElementById('vanContent');
   if (dadVan.length === 0) {
-    el.innerHTML = `<div class="van-empty">VAN IS EMPTY.<br>GENERATE A RECIPE<br>AND ADD IT HERE.<br><br>BELLA LOOKS CONCERNED.</div>`;
+    el.innerHTML = `<div class="van-empty">VAN IS EMPTY.<br>GENERATE A RECIPE<br>AND ADD IT HERE.<br><br>RAMEN LOOKS SAD.</div>`;
     return;
   }
   const recipesHTML = dadVan.map(r => `
@@ -786,7 +787,7 @@ function groceryOrderNow() {
   });
 }
 // Open a clean, chrome-free printable document: each saved recipe's title,
-// full ingredients, and all cooking steps, plus a Burnt Dad footer.
+// full ingredients, and all cooking steps, plus a Burnt Dorm footer.
 function printRecipeBox() {
   if (!dadVan.length) return;
   const esc = s => String(s == null ? '' : s).replace(/[&<>]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;' }[c]));
@@ -803,7 +804,7 @@ function printRecipeBox() {
         ${steps ? `<h3>Steps</h3><ol class="steps">${steps}</ol>` : ''}
       </section>`;
   }).join('');
-  const doc = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>Burnt Dad Recipes</title>
+  const doc = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>Burnt Dorm Recipes</title>
     <style>
       *{box-sizing:border-box;} body{font-family:Georgia,'Times New Roman',serif;color:#2c1a0e;max-width:680px;margin:0 auto;padding:40px 32px;line-height:1.5;}
       h1{font-family:Arial,Helvetica,sans-serif;color:#FF5500;font-size:26px;margin:0 0 4px;}
@@ -816,10 +817,10 @@ function printRecipeBox() {
       @media print{body{padding:0;}}
     </style></head>
     <body>
-      <h1>🔥 Burnt Dad Kitchen</h1>
+      <h1>🔥 Burnt Dorm Kitchen</h1>
       <div class="tagline">Written for dads. Tested by kids. Survived by both.</div>
       ${sections}
-      <footer>Burnt Dad · A Magic Sun LLC Production · burntdad.com</footer>
+      <footer>Burnt Dorm · A Magic Sun LLC Production · burntdorm.com</footer>
     </body></html>`;
   const win = window.open('', '_blank');
   if (!win) return;
@@ -987,7 +988,7 @@ function renderRecipe(r) {
           <div class="nc-tip-text">${r.fun_tip}</div>
         </div>
         ${r.cookbook_teaser ? `<div class="nc-teaser">📚 ${r.cookbook_teaser}</div>` : ''}
-        <div class="nc-footer">Burnt Dad · A Magic Sun LLC Production · burntdad.com</div>
+        <div class="nc-footer">Burnt Dorm · A Magic Sun LLC Production · burntdorm.com</div>
       </div>
     </div>`;
 }
@@ -1100,7 +1101,7 @@ const MERCH_PLACEHOLDER = 'data:image/svg+xml,' + encodeURIComponent(
   "<rect width='120' height='120' fill='#1a0800'/>" +
   "<rect x='26' y='36' width='68' height='50' fill='none' stroke='#FF8C00' stroke-width='3'/>" +
   "<path d='M26 52 h68 M60 36 v50' stroke='#FF8C00' stroke-width='3'/>" +
-  "<text x='60' y='108' font-family='monospace' font-size='11' fill='#FF8C00' text-anchor='middle'>BURNT DAD</text>" +
+  "<text x='60' y='108' font-family='monospace' font-size='11' fill='#FF8C00' text-anchor='middle'>BURNT DORM</text>" +
   "</svg>"
 );
 
@@ -1188,7 +1189,7 @@ document.getElementById('loginModal').addEventListener('click', e => { if(e.targ
 // LOADING MESSAGES
 // ══════════════════════════════════════════════════════════════════
 const LOADING_MESSAGES = [
-"Mom went bowling...","Dad's boss went golfing today...","Dad probably needs to do laundry...","The neighbor bought a new car...","The grocery store is closing soon...","The game is on in 20 minutes...","Someone left the milk out again...","The wifi password is on the fridge...","Dad forgot what day it is...","The dishwasher needs unloading...","The dog looked at dad funny...","Bella knocked something off the counter...","Maxi ate dad's shoe again...","The HOA sent another letter...","Dad's fantasy team is 2 and 9...","There's a weird smell in the garage...","The minivan needs an oil change...","Dad's boss cc'd HR on that email...","The kids have a recital on Saturday...","Dad googled 'how to boil water'...","The remote is lost again...","Someone used the last paper towel...","The leftovers are... probably fine...","Dad remembered to call his mom (he didn't)...","The fish tank is making a noise...","Three permission slips. Still unsigned...","Dad's barber retired. It's fine...","The car is almost definitely out of gas...","Dad found a gray hair. Just one. So far...","The sprinkler system is 'figured out'..."
+"The microwave is making a weird noise again...","Your meal plan is just vibes and ramen...","The hot plate is doing all the heavy lifting tonight...","The vending machine called you broke...","Your roommate said 'I got snacks' and meant crackers...","The campus cafe closed at 8 and it's 8:03...","The dining hall has one decent option and it's already gone...","Your fridge is basically a science experiment...","The coffee maker is on its last leg...","You found a dollar and immediately spent it on noodles...","The dorm microwave has seen things...","Your laundry basket is now a snack shelf...","The only clean plate is the one in your backpack...","Your desk lamp is somehow the brightest thing in the room...","The stove is a myth in this building...","You are one bad decision away from cereal for dinner...","Your roommate is 'just grabbing a bite' and never comes back...","The water bottle is empty and so are your hopes...","The campus Wi-Fi is stronger than your cooking confidence...","The ramen packet is the most reliable thing in your life...","You have exactly enough ingredients to make one sad meal...","The dorm fridge is giving off a suspicious smell...","You are now debating whether toast counts as dinner...","The microwave timer is the only thing that still works...","Your budget says no, but your stomach says yes...","The freezer is mostly ice and disappointment...","The hot plate is warming up your future...","Your meal prep consisted of buying more ramen...","The pantry is a single packet of instant rice and a prayer..."
 ];
 let loadingInterval = null;
 function startLoadingMessages() {
@@ -1211,46 +1212,28 @@ function startLoadingMessages() {
 // ══════════════════════════════════════════════════════════════════
 function px(ctx, color, x, y, w=1, h=1) { ctx.fillStyle=color; ctx.fillRect(x,y,w,h); }
 
-function drawBella(ctx) {
+function drawRamen(ctx) {
   ctx.clearRect(0,0,32,32);
-  const K='#111111',W='#ffffff',HW='#f8f8f8',HB='#d0d0d0',HS='#f5c842';
-  const FO='#FF8C42',FL='#FFB366',FD='#CC5500',FM='#FFD4A8';
-  const NP='#FF5577',EY='#22CC44',EP='#FF99BB';
-  px(ctx,HW,9,0,14,1);px(ctx,HW,7,1,18,1);px(ctx,HW,6,2,20,3);px(ctx,HW,7,5,18,1);px(ctx,HB,8,5,16,1);px(ctx,HS,7,6,18,2);
-  px(ctx,FO,5,7,4,1);px(ctx,FO,4,8,5,1);px(ctx,FO,3,9,4,2);px(ctx,EP,5,8,2,1);px(ctx,EP,4,9,2,2);
-  px(ctx,FO,23,7,4,1);px(ctx,FO,23,8,5,1);px(ctx,FO,25,9,4,2);px(ctx,EP,25,8,2,1);px(ctx,EP,26,9,2,2);
-  px(ctx,FO,6,11,20,14);px(ctx,FL,8,11,16,4);px(ctx,FD,6,13,2,10);px(ctx,FD,24,13,2,10);px(ctx,FM,10,19,12,5);px(ctx,FM,9,20,14,3);
-  px(ctx,K,6,11,1,14);px(ctx,K,25,11,1,14);px(ctx,K,7,10,18,1);px(ctx,K,7,25,18,1);
-  px(ctx,W,9,14,5,4);px(ctx,EY,10,15,3,2);px(ctx,K,11,15,1,1);px(ctx,K,9,14,5,1);px(ctx,K,9,18,5,1);px(ctx,K,9,14,1,4);px(ctx,K,13,14,1,4);
-  px(ctx,W,18,14,5,4);px(ctx,EY,19,15,3,2);px(ctx,K,20,15,1,1);px(ctx,K,18,14,5,1);px(ctx,K,18,18,5,1);px(ctx,K,18,14,1,4);px(ctx,K,22,14,1,4);
-  px(ctx,W,12,15,1,1);px(ctx,W,21,15,1,1);
-  px(ctx,NP,14,20,4,2);px(ctx,NP,15,19,2,1);px(ctx,K,14,20,4,1);px(ctx,K,14,20,1,2);px(ctx,K,17,20,1,2);px(ctx,K,14,22,4,1);
-  px(ctx,K,16,22,1,2);px(ctx,K,13,23,3,1);px(ctx,K,17,23,3,1);
-  px(ctx,K,3,21,6,1);px(ctx,K,23,21,6,1);px(ctx,K,3,23,6,1);px(ctx,K,23,23,6,1);
-  px(ctx,FO,8,25,16,6);px(ctx,FL,10,25,12,2);px(ctx,FM,11,27,10,3);
-  px(ctx,K,8,25,1,6);px(ctx,K,23,25,1,6);px(ctx,K,8,31,16,1);
-  px(ctx,FO,7,30,4,2);px(ctx,FO,21,30,4,2);px(ctx,NP,8,31,1,1);px(ctx,NP,9,31,1,1);px(ctx,NP,22,31,1,1);px(ctx,NP,23,31,1,1);
+  const K='#111111',W='#ffffff',BW='#f4c96d',B='#c97a1b',R='#ff3b30',Y='#ffd54f',S='#8a4b0f';
+  px(ctx,W,6,2,20,1);px(ctx,W,5,3,22,1);px(ctx,W,4,4,24,1);px(ctx,W,5,5,22,1);px(ctx,W,6,6,20,1);
+  px(ctx,B,7,7,18,1);px(ctx,B,6,8,20,2);px(ctx,B,7,10,18,1);px(ctx,BW,8,11,16,4);px(ctx,BW,9,15,14,2);
+  px(ctx,R,10,7,3,1);px(ctx,R,11,8,2,1);px(ctx,R,9,8,1,1);px(ctx,R,13,7,2,1);px(ctx,R,12,8,1,1);
+  px(ctx,Y,10,9,4,1);px(ctx,Y,10,10,3,1);px(ctx,Y,11,11,2,1);
+  px(ctx,S,6,10,2,8);px(ctx,S,24,10,2,8);px(ctx,K,7,10,1,8);px(ctx,K,25,10,1,8);px(ctx,K,6,18,20,1);
+  px(ctx,W,10,12,4,2);px(ctx,W,18,12,4,2);px(ctx,K,10,12,4,1);px(ctx,K,18,12,4,1);
+  px(ctx,R,12,14,8,1);px(ctx,R,13,15,6,1);px(ctx,K,13,16,4,1);px(ctx,K,13,17,4,1);
+  px(ctx,Y,8,20,16,3);px(ctx,B,8,23,16,2);px(ctx,K,8,25,16,1);
 }
 
-function drawMaxi(ctx) {
+function drawMike(ctx) {
   ctx.clearRect(0,0,32,32);
-  const K='#111111',W='#ffffff',HW='#f8f8f8',HS='#f5c842';
-  const FG='#C8860A',FL='#F0B030',FD='#8B5E00',FC='#FDE8A0';
-  const NB='#222222',EY='#7A3B00',TG='#FF4444';
-  px(ctx,HW,9,0,14,1);px(ctx,HW,7,1,18,1);px(ctx,HW,6,2,20,3);px(ctx,HW,7,5,18,1);px(ctx,HS,7,6,18,2);
-  px(ctx,FL,3,8,5,1);px(ctx,FG,2,9,6,2);px(ctx,FG,2,11,5,3);px(ctx,FD,3,9,1,5);
-  px(ctx,FL,24,8,5,1);px(ctx,FG,24,9,6,2);px(ctx,FG,25,11,5,3);px(ctx,FD,28,9,1,5);
-  px(ctx,FG,6,10,20,15);px(ctx,FL,8,10,16,5);px(ctx,FD,6,12,2,11);px(ctx,FD,24,12,2,11);
-  px(ctx,FC,9,19,14,5);px(ctx,FC,8,20,16,3);
-  px(ctx,K,6,10,1,15);px(ctx,K,25,10,1,15);px(ctx,K,7,9,18,1);px(ctx,K,7,25,18,1);
-  px(ctx,W,9,13,5,4);px(ctx,EY,10,14,3,2);px(ctx,K,11,14,1,1);px(ctx,K,9,13,5,1);px(ctx,K,9,17,5,1);px(ctx,K,9,13,1,4);px(ctx,K,13,13,1,4);px(ctx,W,12,14,1,1);
-  px(ctx,W,18,13,5,4);px(ctx,EY,19,14,3,2);px(ctx,K,20,14,1,1);px(ctx,K,18,13,5,1);px(ctx,K,18,17,5,1);px(ctx,K,18,13,1,4);px(ctx,K,22,13,1,4);px(ctx,W,21,14,1,1);
-  px(ctx,NB,13,19,6,3);px(ctx,NB,12,20,8,2);px(ctx,W,14,20,2,1);
-  px(ctx,K,16,22,1,2);px(ctx,K,12,23,4,1);px(ctx,K,17,23,4,1);
-  px(ctx,TG,14,24,4,2);px(ctx,TG,13,23,6,2);
-  px(ctx,FG,8,25,16,6);px(ctx,FL,10,25,12,2);px(ctx,FC,11,27,10,3);
-  px(ctx,K,8,25,1,6);px(ctx,K,23,25,1,6);px(ctx,K,8,31,16,1);
-  px(ctx,FG,7,29,5,3);px(ctx,FG,20,29,5,3);px(ctx,FC,8,30,3,2);px(ctx,FC,21,30,3,2);
+  const K='#111111',W='#ffffff',S='#8b8b8b',B='#4a4a4a',O='#ff8c42',Y='#ffd54f',R='#ff3b30';
+  px(ctx,S,6,3,20,1);px(ctx,B,5,4,22,1);px(ctx,S,4,5,24,1);px(ctx,B,5,6,22,1);px(ctx,S,6,7,20,1);
+  px(ctx,O,8,8,16,8);px(ctx,Y,10,9,12,1);px(ctx,Y,9,10,14,1);px(ctx,R,14,11,4,1);px(ctx,R,13,12,6,1);
+  px(ctx,B,7,16,18,1);px(ctx,S,8,17,16,2);px(ctx,W,9,17,14,1);px(ctx,K,8,19,16,1);
+  px(ctx,B,7,20,18,2);px(ctx,S,8,22,16,2);px(ctx,O,9,24,14,2);
+  px(ctx,K,10,8,1,1);px(ctx,K,20,8,1,1);px(ctx,K,12,8,1,1);px(ctx,K,18,8,1,1);
+  px(ctx,K,7,15,1,5);px(ctx,K,24,15,1,5);px(ctx,K,7,20,18,1);
 }
 
 let wagT = 0;
@@ -1259,9 +1242,9 @@ const dogCtx = document.getElementById('dogCanvas').getContext('2d');
 function animatePets() {
   wagT += 0.04;
   const wag = Math.sin(wagT);
-  catCtx.clearRect(0,0,32,32); drawBella(catCtx);
-  if (Math.sin(wagT*0.3) > 0.97) { catCtx.fillStyle='#FF8C42'; catCtx.fillRect(9,15,5,3); catCtx.fillRect(18,15,5,3); }
-  dogCtx.clearRect(0,0,32,32); drawMaxi(dogCtx);
+  catCtx.clearRect(0,0,32,32); drawRamen(catCtx);
+  if (Math.sin(wagT*0.3) > 0.97) { catCtx.fillStyle='#FF8C42'; catCtx.fillRect(11,14,4,2); catCtx.fillRect(17,14,4,2); }
+  dogCtx.clearRect(0,0,32,32); drawMike(dogCtx);
   const tongueY = Math.round(wag*1.5);
   dogCtx.fillStyle='#FF4444'; dogCtx.fillRect(13,24+tongueY,6,2);
   dogCtx.fillStyle='#CC2222'; dogCtx.fillRect(14,25+tongueY,4,1);
@@ -1284,9 +1267,9 @@ window.addEventListener('load', () => {
 // DEMO RECIPES
 // ══════════════════════════════════════════════════════════════════
 const DEMO_RECIPES = [
-{name:"Bella's Rainbow Fruit Skewers",description:"Colorful, healthy, and totally no-cook! These fruit skewers are as fun to make as they are to eat.",difficulty:"easy",time_minutes:15,servings:4,allergen_warnings:"",ingredients:[{amount:"1 cup",item:"strawberries, hulled"},{amount:"1 cup",item:"green grapes"},{amount:"1 cup",item:"pineapple chunks"},{amount:"1 cup",item:"blueberries"},{amount:"1 cup",item:"mandarin orange segments"},{amount:"8",item:"wooden skewer sticks"},{amount:"half cup",item:"vanilla yogurt for dipping"}],steps:[{instruction:"Wash all your fruit thoroughly under cool running water and pat dry with paper towels.",timer_seconds:0},{instruction:"Ask a grown-up to help hull the strawberries and cut the pineapple into bite-sized chunks.",timer_seconds:0},{instruction:"Thread the fruit onto each skewer in rainbow color order: strawberry, orange, pineapple, grape, blueberry.",timer_seconds:0},{instruction:"Arrange your skewers on a plate and serve with vanilla yogurt on the side for dipping.",timer_seconds:0}],fun_tip:"Bella told me this trick. I don't know how she knows about cooking but here we are.",cookbook_teaser:"This recipe appears in Chapter 1 of the Burnt Dad Cookbook: Things Even I Can't Mess Up!"},
-{name:"Maxi's Cheesy Quesadillas",description:"Crispy, melty, and ready in minutes. Maxi's favourite after a big run in the park.",difficulty:"easy",time_minutes:20,servings:4,allergen_warnings:"Contains: dairy, gluten",ingredients:[{amount:"4",item:"large flour tortillas"},{amount:"2 cups",item:"shredded cheddar cheese"},{amount:"half cup",item:"canned black beans, rinsed"},{amount:"half cup",item:"frozen corn, thawed"},{amount:"quarter cup",item:"mild salsa"},{amount:"2 tbsp",item:"butter"},{amount:"half cup",item:"sour cream to serve"}],steps:[{instruction:"Mix the black beans, corn, and a spoonful of salsa together in a small bowl.",timer_seconds:0},{instruction:"Sprinkle cheese over one half of a tortilla. Add bean mixture. Fold the tortilla in half.",timer_seconds:0},{instruction:"Ask a grown-up to melt butter in a pan over medium heat. Place quesadilla in the pan.",timer_seconds:0},{instruction:"Cook for 3 minutes until the bottom is golden. Flip and cook 2 to 3 more minutes.",timer_seconds:180},{instruction:"Let cool for 1 minute then cut into triangles. Serve with sour cream and salsa.",timer_seconds:60}],fun_tip:"Maxi tried to eat one before it was done. Don't be like Maxi. Let it cool first.",cookbook_teaser:"From the Burnt Dad Cookbook Vol. 2: We Ate It and Nobody Called 911!"},
-{name:"Maxi's Monster Smoothie",description:"Green, thick, and packed with secret vegetables that taste like a tropical holiday. Even Maxi couldn't tell there was spinach in it.",difficulty:"easy",time_minutes:10,servings:2,allergen_warnings:"",ingredients:[{amount:"2 cups",item:"fresh spinach"},{amount:"1",item:"ripe banana, frozen"},{amount:"1 cup",item:"mango chunks"},{amount:"half cup",item:"pineapple chunks"},{amount:"1 cup",item:"coconut milk or orange juice"},{amount:"1 tbsp",item:"honey"},{amount:"handful",item:"ice cubes"}],steps:[{instruction:"Add spinach and coconut milk to blender first. Blend until fully smooth.",timer_seconds:30},{instruction:"Add frozen banana, mango, and pineapple. Put the lid on tightly.",timer_seconds:0},{instruction:"Blend on high for 45 to 60 seconds until completely smooth.",timer_seconds:60},{instruction:"Taste it. Add honey if you want it sweeter then blend 5 more seconds.",timer_seconds:0},{instruction:"Pour into glasses and serve with a fun straw. Tell the kids it's a monster smoothie.",timer_seconds:0}],fun_tip:"Tell the kids it's a monster smoothie and they'll never ask what's in it. Works every time.",cookbook_teaser:"From Burnt Dad's Drinks Chapter: Liquids I Have Not Yet Spilled On the Ceiling!"}
+{name:"Ramen Cup Upgrade",description:"A dorm-safe bowl of noodles with eggs, cheese, and whatever crunchy topping you can scrounge up.",difficulty:"easy",time_minutes:8,servings:1,allergen_warnings:"Contains: egg, gluten",ingredients:[{amount:"1",item:"ramen packet"},{amount:"1",item:"egg"},{amount:"1 tbsp",item:"butter or oil"},{amount:"1 tbsp",item:"soy sauce"},{amount:"2 tbsp",item:"shredded cheese"},{amount:"1",item:"green onion or any leftover veg"}],steps:[{instruction:"Boil the noodles in a mug or pot with the seasoning packet.",timer_seconds:120},{instruction:"Crack in the egg and stir until it turns silky.",timer_seconds:60},{instruction:"Add butter or oil, soy sauce, and cheese. Stir until glossy.",timer_seconds:60},{instruction:"Top with chopped green onion or leftover veggies if you have them.",timer_seconds:0}],fun_tip:"RAMEN says this is basically a meal plan if you ignore the budget.",cookbook_teaser:"This one belongs in the Burnt Dorm cookbook: ramen upgrades for broke nights."},
+{name:"Microwave Quesadilla",description:"Crispy-edged, melty, and cheap enough to make on a weeknight with a microwave and a tortilla.",difficulty:"easy",time_minutes:5,servings:1,allergen_warnings:"Contains: dairy, gluten",ingredients:[{amount:"1",item:"flour tortilla"},{amount:"half cup",item:"shredded cheese"},{amount:"2 tbsp",item:"beans or salsa"},{amount:"1 tsp",item:"butter"}],steps:[{instruction:"Lay the tortilla flat and sprinkle cheese and beans over half of it.",timer_seconds:0},{instruction:"Fold it in half and microwave for 45 seconds, then flip and heat another 20 seconds.",timer_seconds:70},{instruction:"Let it cool for 30 seconds so your tongue survives.",timer_seconds:30}],fun_tip:"MIKE says this is the most reliable thing in the dorm besides the microwave.",cookbook_teaser:"From the Burnt Dorm survival guide: tiny meals, big confidence."},
+{name:"Hot Plate Rice Bowl",description:"Cheap rice, a fried egg, and a spoonful of sauce turns into a meal that feels suspiciously healthy.",difficulty:"easy",time_minutes:10,servings:1,allergen_warnings:"Contains: egg",ingredients:[{amount:"1 cup",item:"instant rice"},{amount:"1",item:"egg"},{amount:"1 tbsp",item:"soy sauce"},{amount:"1 tbsp",item:"salsa or hot sauce"},{amount:"2 tbsp",item:"frozen peas or corn"}],steps:[{instruction:"Cook the instant rice according to the package.",timer_seconds:180},{instruction:"Fry the egg on the hot plate and set it aside.",timer_seconds:120},{instruction:"Stir the peas or corn into the rice, then top with egg and sauce.",timer_seconds:60}],fun_tip:"If it tastes like a victory, that's because it is.",cookbook_teaser:"From Burnt Dorm's dorm kitchen chapter: cheap, fast, and weirdly good."}
 ];
 </script>
 </body>
